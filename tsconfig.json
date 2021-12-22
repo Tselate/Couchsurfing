@@ -1,7 +1,24 @@
-{
-    "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
-      "outDir": "out"
-    }
-  }
+{ 
+   "compilerOptions":{ 
+      "moduleResolution":"node",
+      "target": "es5",
+      "module": "es6",
+      "declaration":false,
+      "noLib":false,
+      "emitDecoratorMetadata":true,
+      "experimentalDecorators":true,
+      "sourceMap":true,
+      "pretty":true,
+      "allowUnreachableCode":true,
+      "allowUnusedLabels":true,
+      "noImplicitAny":true,
+      "noImplicitReturns":false,
+      "noImplicitUseStrict":false,
+      "outDir":"dist/",
+      "baseUrl":"src/",
+      "listFiles":false,
+      "noEmitHelpers":true,
+      "lib": ["dom","es6"]
+   },
+   "compileOnSave":false
+}
