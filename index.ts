@@ -10,7 +10,7 @@ function showReviewTotal(value: number, reviewer: string, isLoyalty: LoyaltyUser
 
 function populateUser(isReturning : boolean, userName: string ) {
     if (isReturning){
-        returningUserDisplay.innerHTML = 'back'
+        returningUserDisplay.innerHTML = 'back,'
     }
     userNameDisplay.innerHTML = userName
 }
